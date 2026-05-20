@@ -1,0 +1,53 @@
+# ─── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Virtual environments ───────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── OS / IDE ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Logs ───────────────────────────────────────────────
+*.log
+.logs/
+
+# ─── Datasets (download separately — see README) ──────────
+data/*.csv
+data/*.pkl
+data/*.tsv
+data/*.json
+!data/.gitkeep
+
+# ─── Pre-trained KG embeddings (download from KHAN Drive) ──
+IG_khan/pre-trained/
+!IG_khan/pre-trained/.gitkeep
+
+# ─── Model checkpoints + vocab (train via KHAN/CROWN repos) ─
+models/khan/*.pt
+models/khan/*.pth
+models/khan/*.pkl
+!models/khan/.gitkeep
+
+# ─── Pipeline outputs (generated at runtime) ───────────────
+outputs/
+
+# ─── Cache ──────────────────────────────────────────────────
+IG_khan/cache/
+**/cache/
+*.npz
+!data/.gitkeep

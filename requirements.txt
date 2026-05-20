@@ -1,0 +1,16 @@
+# ─── Core ──────────────────────────────────────────────
+torch>=1.11.0
+torchtext>=0.12.0
+numpy
+pandas
+scikit-learn
+tqdm
+
+# ─── KHAN-XAI ──────────────────────────────────────────
+spacy>=3.0
+# spaCy 모델: python -m spacy download en_core_web_lg
+
+# ─── News clustering ───────────────────────────────────
+hdbscan
+sentence-transformers
+matplotlib
