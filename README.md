@@ -1,7 +1,7 @@
-# PRISM: An Interactive System for Explainable Political Bias Detection and Perspective-Balanced News Recommendation
+# PRISM: A Personalized News Recommendation System for Mitigating Political Echo Chambers
 
-Supplementary code for the demo paper submitted to CIKM 2026.
-This repository implements the full pipeline: political bias classification with Integrated Gradients explanations (IG_khan) and perspective-balanced alternative article recommendation via news clustering (news_clustering).
+Supplementary code for the paper submitted to CIKM 2026.
+This repository implements the full pipeline: political bias classification with Integrated Gradients explanations (IG_khan) and perspective-balanced news recommendation via HDBSCAN clustering (news_clustering), designed to expose users to diverse political viewpoints and reduce echo chamber effects.
 
 ---
 
@@ -54,7 +54,7 @@ Pre-trained KG embeddings → `IG_khan/pre-trained/`:
 
 ## Models
 
-Train using the official repos and place checkpoints in `models/khan/` or `models/crown/`:
+Train using the official repo and place checkpoints in `models/khan/`:
 
 | Model | Repo | Files needed |
 |---|---|---|
