@@ -82,7 +82,7 @@ python run_ig.py --all
 
 ### Step 3 — News clustering
 ```bash
-cd news_clustering
+cd ../news_clustering
 python main.py
 ```
 

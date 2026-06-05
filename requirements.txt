@@ -8,7 +8,7 @@ tqdm
 
 # ─── KHAN-XAI ──────────────────────────────────────────
 spacy>=3.0
-# spaCy 모델: python -m spacy download en_core_web_lg
+# spaCy model: python -m spacy download en_core_web_lg
 
 # ─── News clustering ───────────────────────────────────
 hdbscan
