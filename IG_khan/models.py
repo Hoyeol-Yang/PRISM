@@ -60,7 +60,7 @@ class KHANModel(nn.Module):
         word_raw_scores = [] if return_attention else None  # raw scores before softmax
 
         if isHierarchy == True:
-            title_embeddings = self.embeddings(titles).to(torch.long) * math.sqrt(self.embed_size)
+            title_embeddings = self.embeddings(titles) * math.sqrt(self.embed_size)
             title_embeddings = self.title_pos_encoder(title_embeddings)
             title_embeddings = self.title_transformer(title_embeddings)
             title_embeddings = title_embeddings.mean(dim=1).unsqueeze(1)

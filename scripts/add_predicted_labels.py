@@ -57,7 +57,6 @@ def main():
     print(f"  - Model: {args.model_path}")
     print(f"  - Device: {args.device}")
     predictor = KHANPredictor(
-        dataset='ALLSIDES-L',
         model_path=args.model_path,
         device=args.device
     )

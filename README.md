@@ -1,7 +1,7 @@
 # PRISM: A Personalized News Recommendation System for Mitigating Political Echo Chambers
 
-Supplementary code for the paper submitted to CIKM 2026.
-This repository implements the full pipeline: political bias classification with Integrated Gradients explanations (IG_khan) and perspective-balanced news recommendation via HDBSCAN clustering (news_clustering), designed to expose users to diverse political viewpoints and reduce echo chamber effects.
+Supplementary code for the paper *"PRISM: A Personalized News Recommendation System for Mitigating Political Echo Chambers"*.
+This repository implements a pipeline that detects the political bias of news articles and recommends alternative articles from opposing perspectives, with the goal of exposing users to diverse viewpoints and reducing echo chamber effects.
 
 ---
 
