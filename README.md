@@ -103,8 +103,3 @@ python compute_similarity_stats.py
 
 ---
 
-## Citation
-
-```bibtex
-@inproceedings{}
-```
